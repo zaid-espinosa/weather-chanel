@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater Channel</title>
+
+    <!-- Normalize.css -->
+    <link rel="Preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Roboto&amp;display=swap" rel="stylesheet">
+
+    <!-- Style.css -->
+    <link rel="Preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="encabezado">
+        <h1>Weather Channel</h1>
+        <input type="text" placeholder="Ingresá una ciudad" id="input-city">
+        <button>ENVIAR</button>
+    </div>
+
+    <div class="container">
+        <ul class="ciudades">
+            <li>
+                <span id="ciudad"></span>
+                <br>
+                <span id="temperatura"></span>
+                <span id="grados"></span>
+                <br>
+                <img id="wicon" src="" alt="ícono del tiempo">
+                <br>
+                <span id="descripcion"></span>
+                <br>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Script.js -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
